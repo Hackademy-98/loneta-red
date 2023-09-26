@@ -68,9 +68,25 @@ position: relative;
 
 
 .custom-hr{
-    border:3 solid darkred ;
+    border:2px solid darkred ;
     opacity: 1;
 }
+.custom-hr::after{
+    content: "";
+    position: absolute ;
+    bottom: 8px;
+    left: 105px;
+    width: 20px;
+    height: 20px;
+    background-color: #ececec;
+    border: 3px solid darkred;
+    border-radius: 50%;
+
+
+
+}
+  
+
 
 .trees2{
     background-image: url(./media/trees2.png);
@@ -79,7 +95,12 @@ position: relative;
 
     
 }
-
+h2{
+    color: darkred;
+}
+h4{
+    color: darkred;
+}
 
 .pino-singol{
     background-image: url(./media/single.png);
@@ -123,21 +144,22 @@ position: relative;
 
 }
 h5{
-    text: darkred;
+    
+    color: darkred !important;
 }
-.footerino{
-    
-    background-color: darkred;
-    position: absolute;
-    color: aliceblue;
-    
 
+    
+.footer{
+    background-color: darkred;
+    color: #ececec;
+}
    
     
 
     
-}
+
 h3{
     font-family: 'Nova Square', cursive;
-
+color: darkred;
  }
+ 
